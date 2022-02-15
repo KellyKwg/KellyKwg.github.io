@@ -1,0 +1,52 @@
+
+p {
+font-family: monaco, monospace;
+color:#4382A7;
+font-size: 14pt;
+padding: 4vw;
+text-align: center;
+
+}
+
+body {
+  background-color: #FFF3E8;
+  text-align: center;
+  padding: 1vw;
+  margin:  1vh;
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-family: monaco, monospace;
+  color: #CD9D93;
+  font-size: 34pt;
+  text-align: center; 
+
+  } 
+
+h2 {
+  font-family: monaco, monospace;
+  color: #4382A7;
+  font-size: 20pt;
+  text-align: center; 
+  margin: 0;
+  padding: 1vw;
+  margin:  1vh;
+} 
+
+.weeklink {
+	color: blue;
+    background-color: #ABBBBC;
+    border-radius: 4px;
+    padding: 1vw;
+  	margin:  1vh;
+}
+
+
+div {
+	width: 45%;
+	padding: 2vw;
+	margin: 0;
+
+}
