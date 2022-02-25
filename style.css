@@ -11,10 +11,11 @@ margin: 2vh;
 
 body {
   background-color: #FFF3E8;
+  border: solid 6px #8B575B;
   text-align: center;
   padding: 1vw;
   margin:  2vh;
-  border-radius: 10px;
+
 }
 
 img {
@@ -46,22 +47,22 @@ h2 {
 
 P.para {
   border: solid 5px #0FC2C0;
-    border-radius: 4px;
-    padding: 1vw;
-    margin:  2vh;
-    font-size: 14pt;
+  border-radius: 4px;
+  padding: 1vw;
+  margin:  2vh;
+  font-size: 14pt;
 
 }
 
 P.blocktext {
-	color: blue;
-    background-color: #ABBBBC;
-    border-radius: 4px;
-    padding: 1vw;
-  	margin:  2vh;
-    margin-left: 575px;
-    margin-right: 575px;
-    width: 8em
+  border: solid 4px #ABBBBC;
+  border-radius: 4px;
+  padding: 1vw;
+  margin:  6vh;
+  line-height: 2.5;
+  margin-left: 450px;
+  margin-right: 450px;
+  width: 20em
 }
 
 
