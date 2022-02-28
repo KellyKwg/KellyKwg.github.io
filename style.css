@@ -1,21 +1,27 @@
 
+
 p {
-font-family: monaco, monospace;
-color:#4382A7;
-font-size: 14pt;
-padding: 1vw;
-text-align: center;
-margin: 2vh;
+  font-family: monaco, monospace;
+  color:#4382A7;
+  font-size: 14pt;
+  text-align: center;
+  width: 60%;
+  border: 0px;
+  padding: 6px;
+  margin: auto;
 
 }
 
 body {
   background-color: #FFF3E8;
-  border: solid 6px #8B575B;
-  text-align: center;
-  padding: 1vw;
-  margin:  2vh;
 
+  text-align: center;
+  padding: 0;
+  margin-top: : 50px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 100%;
 }
 
 img {
@@ -54,17 +60,6 @@ P.para {
 
 }
 
-P.blocktext {
-  border: solid 4px #ABBBBC;
-  border-radius: 4px;
-  padding: 1vw;
-  margin:  6vh;
-  line-height: 2.5;
-  margin-left: 450px;
-  margin-right: 450px;
-  width: 20em
-
-}
 
 
 div {
