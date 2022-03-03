@@ -1,0 +1,58 @@
+body {
+    background-color: #D6A883;
+}
+
+#theEyes {
+    text-align:center;
+
+ /* background-color: pink; */
+}
+
+button {
+    padding: 5vw;
+    border: solid 3px;
+    border-radius: 100px;
+    font-size: 50px;
+    margin: 15px;
+
+}
+button:hover {
+    background-color: #BF8F73;
+    color:  #BF8F73;
+}
+
+#theNose {
+    height: 40vh;
+    width: auto;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 200px;
+    text-align:center;
+} 
+    
+#theMouth {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 25px;
+    border-color: darkred;
+    border-radius: 2% 2% 35% 35%;
+    width: 400px;
+    margin: auto;
+
+   
+}
+
+
+#theMouth p {
+    background-color: white;
+    /* width: 50px; */
+    padding:2vw;
+    border-radius: 5% 5% 33% 33%;
+
+}
+
+.theTeeth {
+    flex-shrink: 2;
+    margin: 2px;
+}
