@@ -89,3 +89,36 @@ img {
 	width: 45%;
 }
 
+.positioned {
+    position: sticky;
+    bottom: 165px;
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+    margin-bottom: 20em;
+    margin-left: 80px;
+    background: #736A5F;
+    padding: 10px;
+    float: left;
+}
+
+.righttext {
+    float: right;
+    display: block;
+    margin-right: 16px;
+    font-family: roman SD;
+    text-align: left;
+
+}
+
+.w5bookname {
+    font-family: roman SD, monospace;
+    color: #b54013;
+    font-size: 20pt;
+    background: #d79356;
+    padding: 2vh;
+    margin: 10px;
+
+}
+
+
