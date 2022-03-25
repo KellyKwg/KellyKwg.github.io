@@ -1,0 +1,188 @@
+body {
+  background-image: url(mainimage.jpeg);
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+nav {
+  width : 250px; 
+  background: white;
+  margin : 40px auto; 
+}
+
+span {
+  font-family: "Georgia", serif;
+  padding : 15px;
+  background : grey; 
+  color : white;
+  font-size : 20px;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  content: "=";
+}
+
+ul {
+
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.text {
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: 90px;
+}
+
+.slide ul {padding : 25px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 300px;} 
+
+
+
+
+.p2 {
+  background-image: url(eye.jpeg);;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+}
+.typewriter {
+  position: absolute;
+  top: 10%;
+  left: 17%;
+}
+
+.typewriter #typetext {
+  color: black;
+  text-shadow: 1px 1px white;
+  border-right: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1000px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(40) 1s 1 normal both;
+  animation-delay: 1.3s;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+    border-right: none;
+  }
+  0.1% {
+    border-right: 1px solid black;
+  }
+  99.9% {
+    border-right: 1px solid black;
+  }
+  100% {
+    border: none;
+  }
+}
+
+.p3 {
+  background-color: grey;
+  background-image: none;
+}
+
+@keyframes fadeIn {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .spin {
+    width: 300px;
+    margin-right: 350px;
+    border-radius: 50% 50% 50% 50%;
+    animation-name: spinning;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+.bigtext1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 80px;
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+
+}
+
+.bigtext2 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 80px;
+  position: relative; 
+  float: right;
+  top: -350px;
+  width: 35%;
+}
+
+.blink_text {
+  background: none;
+  color: white;
+  font-size: 30px;
+}
+
+.blink_img {
+  animation: blinker 1.5s linear infinite;
+  background: none;
+  display: inline-block;
+  margin: 3px;
+}
+
+.blink_img2 {
+  animation: blinker 1.9s linear infinite;
+  background: none;
+  display: inline-block;
+}
+
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+@keyframes blin {
+  50% { opacity: 0; }
+}
+
+.p4 {
+  background-color: black;
+  background-image: none;
+}
