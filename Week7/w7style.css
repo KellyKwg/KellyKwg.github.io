@@ -70,10 +70,9 @@ ul {
 
 
 .p2 {
-  background-image: url(eye.jpeg);;
+  background-image: url(eye.jpeg);
   font-family: 'Roboto Mono', monospace;
   font-size: 25px;
-  display: -ms-grid;
   display: grid;
   height: 100vh;
 }
@@ -87,7 +86,6 @@ ul {
   color: black;
   text-shadow: 1px 1px white;
   border-right: 1px solid black;
-  white-space: nowrap;
   overflow: hidden;
   width: 1000px;
   white-space: nowrap;
