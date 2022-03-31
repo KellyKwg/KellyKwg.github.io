@@ -17,7 +17,7 @@ function setup() {
   // Resize the image so it fits on the screen.
   img.resize(width, height);
   
-  background(32);
+  background(255);
   noStroke();
 }
 
