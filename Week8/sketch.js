@@ -3,10 +3,13 @@
 let img;
 
 function preload() {
-  img = loadImage('https://i.pinimg.com/474x/99/e6/af/99e6af0602189a28d3fe731565aecd6b--the-grass-baby-ducks.jpg');
+  img = loadImage('https://kellykwg.github.io/Week8/duck.jpeg');
+
+}
 function setup() {
   createCanvas(600, 600);
-  
+
+
   img.resize(width, height);
   
   background(0);
@@ -14,7 +17,8 @@ function setup() {
 }
 
 function draw() {
-  
+
+
   img.loadPixels();
   
   let pixelX = random(width);
@@ -23,5 +27,5 @@ function draw() {
 
 
   fill(pixelColor);
-  circle(pixelX, pixelY, 10);
+  circle(pixelX, pixelY, 20);
 }
