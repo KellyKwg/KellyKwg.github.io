@@ -3,13 +3,13 @@
 let img;
 
 function preload() {
-  img = loadImage('https://organicfeeds.com/wp-content/uploads/2021/03/How-To-Raise-A-Baby-Duck-scaled-1.jpg');
+  img = loadImage('https://i.pinimg.com/474x/99/e6/af/99e6af0602189a28d3fe731565aecd6b--the-grass-baby-ducks.jpg');
 function setup() {
   createCanvas(600, 600);
   
   img.resize(width, height);
   
-  background(255);
+  background(0);
   noStroke();
 }
 
