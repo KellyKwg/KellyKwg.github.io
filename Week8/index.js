@@ -30,3 +30,6 @@ function draw() {
   circle(pixelX, pixelY, 15);
 }
 
+function mousePressed() {
+  background(0);
+}
