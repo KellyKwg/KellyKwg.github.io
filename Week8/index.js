@@ -3,7 +3,7 @@
 let img;
 
 function preload() {
-  img = loadImage('Week8/whiteduck.jpeg');
+  img = loadImage('https://kellykwg.github.io/Week8/whiteduck.jpeg');
 
 }
 function setup() {
