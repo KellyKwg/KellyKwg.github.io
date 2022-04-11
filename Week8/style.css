@@ -4,8 +4,25 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: : 50px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 100%;
+  background-color: #FFF3E8;
+  color:#2F428F;
+  font-family: monaco, monospace;
+}
+
+h1 {
+  font-size: 34pt;
+}
+
+h2 {
+  font-size: 20pt;
 }
 canvas {
   display: block;
