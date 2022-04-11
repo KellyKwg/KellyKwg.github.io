@@ -7,10 +7,10 @@ function preload() {
 
 }
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(800, 800);
 
 
-  img.resize(600,600);
+  img.resize(800,800);
   
   background(0);
   noStroke();
