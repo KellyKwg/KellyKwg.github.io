@@ -28,3 +28,8 @@ canvas {
   display: block;
   float: center;
 }
+
+a {
+  display: inline-block;
+  text-align: center;
+}
