@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+body{ 
+    background: #E6E3D7;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #434F4A;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+
+#countdown {
+    display: inline-flex;
+    font-size: 30px;
+    color: #B09C9A;
+
+}
+
+.refresh {
+    border: none;
+}
+
+.buttons {
+    font-size: 16px;
+    width: 5%;
+    /* line-height: 2; */
+    color: #D4C9C1;
+    background-color: #8F6D71;
+    border: none;
+    padding: 7px;
+    margin: 10px;
+}
+
+button {
+    display: inline-block;
+}
+
+.dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 16px;
+    width: 5%;
+    /* line-height: 2; */
+    padding: 7px;
+    color: #D4C9C1;
+    background-color: #8F6D71;
+    border: none;
+    margin: 10px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    z-index: 1;
+    margin-top: 1rem;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6,
+.tile7, .tile8, .tile9, .tile10, .tile11, .tile12,
+.tile13, .tile14, .tile15, .tile16, .tile17, .tile18, 
+.tile19, .tile20, .tile21, .tile22, .tile23, .tile24, 
+.tile25, .tile26, .tile27, .tile28, .tile29, .tile30,
+.tile31, .tile32, .tile33, .tile34, .tile35, .tile36 {
+    display: table-cell;
+    width: 71px;
+    height: 71px;
+    border: 1px solid white;
+    background: url("disco.png"); 
+    cursor: pointer;
+}
+    
+.tile1 {background-position: 0px 0px;}
+.tile2 {background-position: -71px 0px;}
+.tile3 {background-position: -142px 0px;}
+.tile4 {background-position: -213px 0px;}
+.tile5 {background-position: -284px 0px;}
+.tile6 {background-position: -355px 0px;}
+
+.tile7 {background-position: 0px -71px;}
+.tile8 {background-position: -71px -71px;}
+.tile9 {background-position: -142px -71px;}
+.tile10 {background-position: -213px -71px;}
+.tile11 {background-position: -284px -71px;}
+.tile12 {background-position: -355px -71px;}
+
+.tile13 {background-position: 0px -142px;}
+.tile14 {background-position: -71px -142px;}
+.tile15 {background-position: -142px -142px;}
+.tile16 {background-position: -213px -142px;}
+.tile17 {background-position: -284px -142px;}
+.tile18 {background-position: -355px -142px;}
+
+.tile19 {background-position: 0px -213px;}
+.tile20 {background-position: -71px -213px;}
+.tile21 {background-position: -142px -213px;}
+.tile22 {background-position: -213px -213px;}
+.tile23 {background-position: -284px -213px;}
+.tile24 {background-position: -355px -213px;}
+
+.tile25 {background-position: 0px -284px;}
+.tile26 {background-position: -71px -284px;}
+.tile27 {background-position: -142px -284px;}
+.tile28 {background-position: -213px -284px;}
+.tile29 {background-position: -284px -284px;}
+.tile30 {background-position: -355px -284px;}
+
+.tile31 {background-position: 0px -355px;}
+.tile32 {background-position: -71px -355px;}
+.tile33 {background-position: -142px -355px;}
+.tile34 {background-position: -213px -355px;}
+.tile35 {background-position: -284px -355px;}
+.tile36 {background: white; cursor: default;}

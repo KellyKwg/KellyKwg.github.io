@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+
+html{ 
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+a {
+    /* outline: none; */
+    /* text-decoration: none; */
+    display: inline-block;
+    width: 40%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 2.2;
+    color: #634E4D;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+    background: #B09C9A;
+}
+
+a:hover {
+    background: #D4C9C1;
+}
+
+a:active {
+    background: #CFDACC;
+    color: white;
+}
+
+.level {
+    background-color: #E6E3D7;
+    border-color: black;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 50px;
+    font-size: 17px;
+    margin-top: 4rem;
+}
+
+h4 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
+    color: #434F4A;
+    font-weight: bolder;
+}

@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+body{ 
+    background: #E6E3D7;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #434F4A;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+
+#countdown {
+    display: inline-flex;
+    font-size: 30px;
+    color: #B09C9A;
+
+}
+
+.refresh {
+    border: none;
+}
+
+.buttons {
+    font-size: 16px;
+    width: 5%;
+    /* line-height: 2; */
+    color: #D4C9C1;
+    background-color: #8F6D71;
+    border: none;
+    padding: 7px;
+    margin: 10px;
+}
+
+button {
+    display: inline-block;
+}
+
+
+.dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 16px;
+    width: 5%;
+    /* line-height: 2; */
+    padding: 7px;
+    color: #D4C9C1;
+    background-color: #8F6D71;
+    border: none;
+    margin: 10px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    z-index: 1;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10,
+.tile11, .tile12, .tile13, .tile14, .tile15, .tile16 {
+    display: table-cell;
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    background: url("flower.png"); 
+    cursor: pointer;
+}
+    
+.tile1 {background-position: 0px 0px;}
+.tile2 {background-position: -90px 0px;}
+.tile3 {background-position: -180px 0px;}
+.tile4 {background-position: -270px 0px;}
+
+.tile5 {background-position: 0px -90px;}
+.tile6 {background-position: -90px -90px;}
+.tile7 {background-position: -180px -90px;}
+.tile8 {background-position: -270px -90px;}
+
+.tile9 {background-position: 0px -180px;}
+.tile10 {background-position: -90px -180px;}
+.tile11 {background-position: -180px -180px;}
+.tile12 {background-position: -270px -180px;}
+
+.tile13 {background-position: 0px -270px;}
+.tile14 {background-position: -90px -270px;}
+.tile15 {background-position: -180px -270px;}
+.tile16 {background: white; cursor: default;}
